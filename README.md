@@ -51,7 +51,7 @@ The main dashboard is structured using a combination of card visuals and analyti
 - **A combined line and clustered column chart** is used to examine the relationship between food spending growth and inflation over time.
 - **The nominal vs. real food spending growth line chart** highlights the divergence between nominal growth and inflation-adjusted growth, emphasizing the impact of food inflation.
 
-### Key Insights (2015–2024):
+### Key Insights:
 - Food-at-home consistently accounts for the majority of food expenditure in the United States; however, it is the opposite in Singapore.
 - Real food spending growth lags real income growth in both countries during high-inflation periods, indicating cost-of-living pressure.
 - Nominal food spending growth overstates consumption growth when inflation accelerates.
