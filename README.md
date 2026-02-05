@@ -18,9 +18,8 @@ This project analyzes how average consumer spending on food and beverages—cove
 - **Department of Statistics (SingStat)**
 
 
-### World Bank Data
-- Inflation Index
-- Food Inflation Index
+### Inflation Data
+- **World Bank**
 
 ## Data Cleaning and Preprocessing
 Since the data sources varied from different websites, the templates and formats were inconsistent. This required extensive data cleaning to standardize the data. The following steps were taken:
