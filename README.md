@@ -24,6 +24,9 @@ This project analyzes how average consumer spending on food and beverages—cove
 ## Data Cleaning and Preprocessing
 Since the data sources varied from different websites, the templates and formats were inconsistent. This required extensive data cleaning to standardize the data. The following steps were taken:
 
+### Unreadable Data Sources:
+Excel could not read the U.S. data therefore I used ChatGPT and Deepseek in order to convert the numbers  in the screenshot into text and pasted it into excel.
+
 ### Standardization of Data Format:
 I created new Excel files to ensure consistency across datasets. Each dataset was transformed and loaded into a standardized format to make the data easier to analyze and compare. Columns and row values were renamed to standardize datasets across all sources.
 
@@ -68,6 +71,7 @@ The drill-through page, which can be accessed from the main page, contains furth
 
 ## 📊 Data Analysis Skills (Excel & Power BI)
 - 🔄 **Data Transformation (ETL):** Cleaned, shaped, and prepared raw data using Power Query by handling missing values, correcting data types, appending datasets, and creating calculated columns.
+- 📊 **Data Extraction & Transformation:** Converted numbers from a screenshot into text using ChatGPT and Deepseek, then imported the transformed data into Excel for further analysis.
 - 📐 **Data Modeling:** Built efficient data models by defining relationships.
 - 🧮 **DAX & Measures:** Created implicit and explicit measures using DAX to calculate KPIs such as averages, growth rates, percentages, rankings, and time-intelligence metrics with the help of Chat GPT.
 - 📊 **Pivot Tables & Pivot Charts:** Analyzed datasets using pivot tables, slicers, and dynamic pivot charts to summarize and explore trends.
