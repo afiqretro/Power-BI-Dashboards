@@ -32,7 +32,7 @@ I created new Excel files to ensure consistency across datasets. Each dataset wa
 
 ### Missing Data Handling:
 
-Singapore Average Monthly Expenditure:
+*Singapore Average Monthly Expenditure:*
 
 During the cleaning process, I identified several missing values in the dataset. Specifically, Singapore's Average Monthly Expenditure per year along with the Food Expenditure Distribution had missing data for certain years. To handle this:
 - I used the CPI- and income-adjusted interpolation method to fill in the gaps. This method estimates expenditure growth using the equation:
@@ -42,7 +42,7 @@ During the cleaning process, I identified several missing values in the dataset.
   For years where data was missing, I interpolated the values based on available information from the Consumer Price Index (CPI) and income growth trends.
 
 
-Singapore Food Expenditure Distribution:
+*Singapore Food Expenditure Distribution:*
 
 To calculate the percentage share of each type of food expenditure, data from two separate reports were integrated and standardized during the data cleaning process.
 
@@ -78,7 +78,7 @@ This scaling step ensures that each food category is accurately represented as a
 This step ensured that each food category’s share was accurately calculated relative to total food-related spending, enabling meaningful comparisons and consistent visual representation within the Power BI dashboard.
 
 
-Singapore Expenditure Distribution:
+*Singapore Expenditure Distribution:*
 
 For the expenditure distribution, I used the latest available year (e.g. 2023) as a reference to estimate the values for previous years (e.g. 2019-2022). This allowed me to maintain the relevance and accuracy of the data while ensuring no crucial information was left out.
 
