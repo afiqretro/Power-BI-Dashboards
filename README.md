@@ -39,7 +39,7 @@ During the cleaning process, I identified several missing values in the dataset.
   For years where data was missing, I interpolated the values based on available information from the Consumer Price Index (CPI) and income growth trends.
 
 ### Expenditure Distribution:
-For the expenditure distribution, I used the latest available year (2023) as a reference to estimate the values for previous years (2019-2022). This allowed me to maintain the relevance and accuracy of the data while ensuring no crucial information was left out.
+For the expenditure distribution, I used the latest available year (e.g. 2023) as a reference to estimate the values for previous years (e.g. 2019-2022). This allowed me to maintain the relevance and accuracy of the data while ensuring no crucial information was left out.
 
 ### Ensuring Data Relevance:
 I also reviewed the dataset to ensure all of the data was relevant to the analysis. Any irrelevant or redundant information was removed to maintain data quality and avoid bias in the final analysis.
