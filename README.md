@@ -41,6 +41,7 @@ During the cleaning process, I identified several missing values in the dataset.
 
   For years where data was missing, I interpolated the values based on available information from the Consumer Price Index (CPI) and income growth trends.
 
+
 Singapore Food Expenditure Distribution:
 
 To calculate the percentage share of each type of food expenditure, data from two separate reports were integrated and standardized during the data cleaning process.
@@ -75,6 +76,7 @@ The adjusted food category share is calculated as:
 This scaling step ensures that each food category is accurately represented as a proportion of overall food expenditure, enabling fair comparison and consistent visualization within the Power BI dashboard.
 
 This step ensured that each food category’s share was accurately calculated relative to total food-related spending, enabling meaningful comparisons and consistent visual representation within the Power BI dashboard.
+
 
 Singapore Expenditure Distribution:
 
