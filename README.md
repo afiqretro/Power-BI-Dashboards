@@ -31,6 +31,9 @@ Excel could not read the U.S. data therefore I used ChatGPT and Deepseek in orde
 I created new Excel files to ensure consistency across datasets. Each dataset was transformed and loaded into a standardized format to make the data easier to analyze and compare. Columns and row values were renamed to standardize datasets across all sources.
 
 ### Missing Data Handling:
+
+Singapore Average Monthly Expenditure:
+
 During the cleaning process, I identified several missing values in the dataset. Specifically, Singapore's Average Monthly Expenditure per year along with the Food Expenditure Distribution had missing data for certain years. To handle this:
 - I used the CPI- and income-adjusted interpolation method to fill in the gaps. This method estimates expenditure growth using the equation:
 
@@ -38,7 +41,43 @@ During the cleaning process, I identified several missing values in the dataset.
 
   For years where data was missing, I interpolated the values based on available information from the Consumer Price Index (CPI) and income growth trends.
 
-### Expenditure Distribution:
+Singapore Food Expenditure Distribution:
+
+To calculate the percentage share of each type of food expenditure, data from two separate reports were integrated and standardized during the data cleaning process.
+
+The Food Distribution Report provides a percentage breakdown of food categories. However, this 100% only represents:
+
++ Food and Non-Alcoholic Beverages
++ Alcoholic Beverages and Tobacco
+
+It does not include Food and Beverage Serving Services (Dining Out).
+
+In contrast, the Average Monthly Expenditure Report defines total food-related expenditure as:
++ Food and Non-Alcoholic Beverages
++ Alcoholic Beverages and Tobacco
++ Food and Beverage Serving Services (Dining Out)
+
+Adjustment Process
+
+Since the Food Distribution percentages exclude Dining Out, an adjustment was required to scale the category shares relative to total food expenditure.
+
+`Total Food Expenditure =
+    Food and Non-Alcoholic Beverages + Alcoholic Beverages and Tobacco + Food and Beverage Serving Services`
+
+`Base Food Expenditure =
+   Food and Non-Alcoholic Beverages  + Alcoholic Beverages and Tobacco`    
+
+The adjusted food category share is calculated as:
+
+`Food Category Share (%) =
+   (Food Distribution Percentage × Base Food Expenditure / Total Food Expenditure)`  
+   
+This scaling step ensures that each food category is accurately represented as a proportion of overall food expenditure, enabling fair comparison and consistent visualization within the Power BI dashboard.
+
+This step ensured that each food category’s share was accurately calculated relative to total food-related spending, enabling meaningful comparisons and consistent visual representation within the Power BI dashboard.
+
+Singapore Expenditure Distribution:
+
 For the expenditure distribution, I used the latest available year (e.g. 2023) as a reference to estimate the values for previous years (e.g. 2019-2022). This allowed me to maintain the relevance and accuracy of the data while ensuring no crucial information was left out.
 
 ### Ensuring Data Relevance:
