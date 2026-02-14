@@ -61,8 +61,6 @@ The main dashboard is structured using a combination of card visuals and analyti
 - Real food spending growth outpaced real income growth following the COVID-19 lockdown period, peaking in 2021 before gradually moderating in subsequent years.
 - America is expected to experience negative real food spending growth starting in 2025 if inflation persists. External factors such as a potential AI bubble, Trump’s tariff impositions, and the devaluation of the dollar are likely to further exacerbate the decline in real food spending.
 
-
-
 ![Drill Through](/Images/Drille%20Through%20page%20.png)
 
 The drill-through page, which can be accessed from the main page, contains further details regarding each country’s data acquisition method, yearly growths and inflation indexes, a more detailed expenditure distribution, along with the trend of alcohol and tobacco consumption.
