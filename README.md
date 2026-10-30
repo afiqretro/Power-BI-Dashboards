@@ -1,7 +1,7 @@
 # Food Spending Behavior Analysis: Power BI & Excel Dashboard
 
-![Dashboard](/Images/First%20page%20(Improved).png)
-![Drill](/Images//Drille%20Through%20page%20.png)
+![Dashboard](/Images//New%20Dashboard%20Main%20Page.png)
+![Drill](/Images//New%20Dashboard%20Drill%20Page.png)
 
 ## Introduction
 Southeast Asia is known for its vibrant street food culture, where diverse culinary traditions reflect the region's rich cultural history. This often translates into a preference for dining out over cooking at home. This study investigates whether this trend holds true in other regions, specifically comparing food spending behavior in Singapore and the United States.
@@ -86,7 +86,7 @@ For the expenditure distribution, I used the latest available year (e.g. 2023) a
 I also reviewed the dataset to ensure all of the data was relevant to the analysis. Any irrelevant or redundant information was removed to maintain data quality and avoid bias in the final analysis.
 
 ## Analysis
-![Main Page](/Images/First%20page%20.png)
+![Main Page](/Images/New%20Dashboard%20Main%20Page.png)
 
 The main dashboard is structured using a combination of card visuals and analytical charts. Card visuals highlight key country-year insights, including top food categories, top food expenditure, food-at-home and dining-out proportions, and inflation indicators. These metrics provide a concise overview of consumer food spending behavior and its evolution over time.
 
@@ -102,7 +102,7 @@ The main dashboard is structured using a combination of card visuals and analyti
 - Real food spending growth outpaced real income growth following the COVID-19 lockdown period, peaking in 2021 before gradually moderating in subsequent years.
 - America is expected to experience negative real food spending growth starting in 2025 if inflation persists. External factors such as a potential AI bubble, Trump’s tariff impositions, and the devaluation of the dollar are likely to further exacerbate the decline in real food spending.
 
-![Drill Through](/Images/Drille%20Through%20page%20.png)
+![Drill Through](/Images/New%20Dashboard%20Drill%20Page.png)
 
 The drill-through page, which can be accessed from the main page, contains further details regarding each country’s data acquisition method, yearly growths and inflation indexes, a more detailed expenditure distribution, along with the trend of alcohol and tobacco consumption.
 
